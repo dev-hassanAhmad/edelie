@@ -1,0 +1,23 @@
+.row{
+    max-width: $grid-width;
+    background-color: lightcoral;
+    margin: 0 auto;
+    font-size: 3rem;
+    &:not(:last-child){
+        margin-bottom: $gutter-vertical;
+    }
+    
+
+    .col-1-of-2{
+        width: calc((100%-#{$gutter-horizontal})/2);
+        background-color: lightgreen;
+        float: left;
+        // &:not(:first-child){
+        //     margin-left: $gutter-horizontal;
+        // }
+
+
+
+    }
+
+}
